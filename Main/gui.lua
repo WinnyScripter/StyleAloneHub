@@ -12,12 +12,12 @@ local OrionLib = {
 	Flags = {},
 	Themes = {
 		Default = {
-			Main = Color3.fromRGB(255, 0, 0),
-			Second = Color3.fromRGB(0, 0, 0),
-			Stroke = Color3.fromRGB(100, 0, 0),
-			Divider = Color3.fromRGB(100, 0, 0),
+			Main = Color3.fromRGB(153, 0, 0),
+			Second = Color3.fromRGB(10, 10, 10),
+			Stroke = Color3.fromRGB(178, 0, 0),
+			Divider = Color3.fromRGB(178, 0, 0),
 			Text = Color3.fromRGB(255, 255, 255),
-			TextDark = Color3.fromRGB(100, 100, 100)
+			TextDark = Color3.fromRGB(204, 204, 204)
 		}
 	},
 	SelectedTheme = "Default",
@@ -399,7 +399,7 @@ function OrionLib:MakeNotification(NotificationConfig)
 			Parent = NotificationHolder
 		})
 
-		local NotificationFrame = SetChildren(SetProps(MakeElement("RoundFrame", Color3.fromRGB(255, 0, 0), 0, 10), {
+		local NotificationFrame = SetChildren(SetProps(MakeElement("RoundFrame", Color3.fromRGB(153, 0, 0), 0, 10), {
 			Parent = NotificationParent, 
 			Size = UDim2.new(1, 0, 0, 0),
 			Position = UDim2.new(1, -55, 0, 0),
