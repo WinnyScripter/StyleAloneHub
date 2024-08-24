@@ -16,7 +16,7 @@ local StyleAloneHub = {
 			Second = Color3.fromRGB(40, 40, 40), 
 			Stroke = Color3.fromRGB(128, 0, 128),
 			Divider = Color3.fromRGB(80, 0, 80),
-			Text = Color3.fromRGB(255, 255, 255)
+			Text = Color3.fromRGB(255, 255, 255),
 			TextDark = Color3.fromRGB(255, 255, 255)
 		}
 	},
